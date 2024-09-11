@@ -3,56 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jarndejong.nl/</loc>
+    <lastmod>2024-09-11T15:12:27+02:00</lastmod>
+  </url><url>
+    <loc>https://jarndejong.nl/talks/</loc>
     <lastmod>2024-09-10T23:48:30+02:00</lastmod>
   </url><url>
-    <loc>https://jarndejong.nl/publications/</loc>
+    <loc>https://jarndejong.nl/allpublications/</loc>
     <lastmod>2024-08-30T12:52:06+02:00</lastmod>
   </url><url>
-    <loc>https://jarndejong.nl/blogs/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/tags/example/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/tags/markdown-syntax/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/tags/mathjax/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/blogs/math/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+    <loc>https://jarndejong.nl/categories/</loc>
   </url><url>
     <loc>https://jarndejong.nl/tags/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/gallery/</loc>
-    <lastmod>2022-06-25T18:35:46+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/blogs/markdown-syntax/</loc>
-    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/tags/sample/</loc>
-    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/tags/emoji-support/</loc>
-    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/blogs/emoji-support/</loc>
-    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/tags/placeholder-text/</loc>
-    <lastmod>2021-04-03T22:41:10+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/blogs/placeholder-text/</loc>
-    <lastmod>2021-04-03T22:41:10+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/tags/rich-content/</loc>
-    <lastmod>2021-04-03T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/blogs/rich-content/</loc>
-    <lastmod>2021-04-03T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>https://jarndejong.nl/categories/</loc>
   </url>
 </urlset>
