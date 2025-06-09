@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><meta charset="UTF-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -28,17 +28,26 @@
 
 
 
-<meta property="og:url" content="https://jarndejong.nl/tags/">
+<meta property="og:url" content="http://localhost:1313/research/phdthesis/">
   <meta property="og:site_name" content="Website of Jarn de Jong">
-  <meta property="og:title" content="Tags">
-  <meta property="og:description" content="Personal website of Jarn de Jong">
+  <meta property="og:title" content="PhD Thesis">
+  <meta property="og:description" content="In March 2025 I defended my thesis successfully, and therefore obtained my PhD summa cum laude (‘with distinction’) at the TU Berlin.
+My thesis encompasses most of the work that I have done during my PhD, and consists of three main parts:
+The mathematical introduction Local equivalence of stabilizer and graph states in quantum networks QKD and anonymous conference key agreement There are two versions available of my thesis:
+A version in ‘thesis’ format (240x170 mm.), my preferred version. A version in A4 paper format, officially published at the TU Berlin dissertation library">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2025-06-07T18:38:04+02:00">
+    <meta property="article:modified_time" content="2025-06-07T18:38:04+02:00">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Tags">
-  <meta name="twitter:description" content="Personal website of Jarn de Jong">
+  <meta name="twitter:title" content="PhD Thesis">
+  <meta name="twitter:description" content="In March 2025 I defended my thesis successfully, and therefore obtained my PhD summa cum laude (‘with distinction’) at the TU Berlin.
+My thesis encompasses most of the work that I have done during my PhD, and consists of three main parts:
+The mathematical introduction Local equivalence of stabilizer and graph states in quantum networks QKD and anonymous conference key agreement There are two versions available of my thesis:
+A version in ‘thesis’ format (240x170 mm.), my preferred version. A version in A4 paper format, officially published at the TU Berlin dissertation library">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -102,15 +111,18 @@
 
 
 
-<meta name="description" content="Tags of Website of Jarn de Jong">
-<link rel="stylesheet" href="/css/list.css" media="all">
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
 
 
   
   
 
   <title>
-Tags | Website of Jarn de Jong
+PhD Thesis | Website of Jarn de Jong
 
   </title>
 </head>
@@ -318,17 +330,106 @@ Tags | Website of Jarn de Jong
     </nav>
 </header>
 <div id="content">
-<div class="container pt-5" id="list-page">
-    <h2 class="text-center pb-2">Tags</h2>
-    <div class="row">
-        
-        <div class="row justify-content-center">
-            <div class="col-auto m-3">
-                
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">PhD Thesis</h1>
+            <div class="text-center">
+              
+              
+
+              
             </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <p>In March 2025 I defended my thesis successfully, and therefore obtained my PhD <a href="https://www.tu.berlin/en/cjs/weitere-seiten/advancement-of-junior-scholars/doctorate/doctoral-regulations"><em>summa cum laude</em> (‘with distinction&rsquo;)</a> at the TU Berlin.</p>
+<p>My thesis encompasses most of the work that I have done during my PhD, and consists of three main parts:</p>
+<ol>
+<li>The mathematical introduction</li>
+<li>Local equivalence of stabilizer and graph states in quantum networks</li>
+<li>QKD and anonymous conference key agreement</li>
+</ol>
+<p>There are two versions available of my thesis:</p>
+<ul>
+<li><a href="/docs/PhD.thesis.JarndeJong.pdf">A version in ‘thesis&rsquo; format</a> (240x170 mm.), my preferred version.</li>
+<li><a href="https://depositonce.tu-berlin.de/items/62fb29ff-63f3-4fec-a876-31391436af9e">A version in A4 paper format</a>, officially published at the TU Berlin dissertation library</li>
+</ul>
+
+          </article>
         </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents"></nav>
+              </div>
+          </aside>
+          
+
+          
+
+          
+        </div>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+
 
   </div><footer>
     
@@ -349,7 +450,7 @@ Tags | Website of Jarn de Jong
         <div class="col-md-4 text-center">
             
                 <div class="pb-2">
-                    <a href="https://jarndejong.nl/" title="Website of Jarn de Jong">
+                    <a href="http://localhost:1313/" title="Website of Jarn de Jong">
                         <img alt="Footer logo" src="/assets/favicon.png"
                             height="40px" width="40px">
                     </a>

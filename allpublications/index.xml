@@ -2,11 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AllPublications on Website of Jarn de Jong</title>
-    <link>https://jarndejong.nl/allpublications/</link>
+    <link>http://localhost:1313/allpublications/</link>
     <description>Recent content in AllPublications on Website of Jarn de Jong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://jarndejong.nl/allpublications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Aug 2024 12:52:06 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/allpublications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orbitcharacterization</title>
+      <link>http://localhost:1313/allpublications/orbitcharacterization/</link>
+      <pubDate>Fri, 30 Aug 2024 12:52:06 +0200</pubDate>
+      <guid>http://localhost:1313/allpublications/orbitcharacterization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GHZextraction</title>
+      <link>http://localhost:1313/allpublications/ghzextraction/</link>
+      <pubDate>Fri, 30 Aug 2024 12:51:06 +0200</pubDate>
+      <guid>http://localhost:1313/allpublications/ghzextraction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LinearACKA</title>
+      <link>http://localhost:1313/allpublications/linearacka/</link>
+      <pubDate>Fri, 30 Aug 2024 12:50:57 +0200</pubDate>
+      <guid>http://localhost:1313/allpublications/linearacka/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anonymous Conference Key Agreement</title>
+      <link>http://localhost:1313/allpublications/acka/</link>
+      <pubDate>Wed, 28 Aug 2024 15:45:50 +0200</pubDate>
+      <guid>http://localhost:1313/allpublications/acka/</guid>
+      <description>&lt;h2 id=&#34;ok&#34;&gt;Ok&lt;/h2&gt;&#xA;&lt;p&gt;Anonymous communication conveys the idea that people may wish to send messages over a network, without&#xA;Usually, anonymity is considered in conjuction with &lt;em&gt;secret&lt;/em&gt; communication, which hides the contents of the message itself. Secret communication is facilitated by encryption; anonymous and secret communication therefore needs &lt;em&gt;anonymous encryption&lt;/em&gt;. The generalisation of this to more than one sender and one receiver is called &lt;em&gt;anonymous conference key agreement&lt;/em&gt; (ACKA) - much of my research has explored ACKA, ranging from the first proof of concept to more mature protocols in various settings, as well as experimental implementations and showcases.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

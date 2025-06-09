@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.134.2"><meta charset="UTF-8">
+	<meta name="generator" content="Hugo 0.147.5"><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -235,10 +235,48 @@ Website of Jarn de Jong
                     
                     
                     
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/publications" title="Publications">
+                    <li class="nav-item navbar-text dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Research">
+                            Research
+                        </a>
+                        <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
                             
-                            Publications
+                            <a class="dropdown-item text-center nav-link" href="/research"
+                                title="QIS research">
+                                QIS research
+                            </a>
+                            
+                            <a class="dropdown-item text-center nav-link" href="/research/phdthesis"
+                                title="PhD thesis">
+                                PhD thesis
+                            </a>
+                            
+                            <a class="dropdown-item text-center nav-link" href="/research/acka"
+                                title="Anonymity">
+                                Anonymity
+                            </a>
+                            
+                            <a class="dropdown-item text-center nav-link" href="/research/entanglement"
+                                title="Entanglement">
+                                Entanglement
+                            </a>
+                            
+                            <a class="dropdown-item text-center nav-link" href="/research/talks"
+                                title="Presentations and posters">
+                                Presentations
+                            </a>
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/coding" title="Coding">
+                            
+                            Coding
                         </a>
                     </li>
                     
@@ -246,9 +284,9 @@ Website of Jarn de Jong
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/talks" title="Presentations and posters">
+                        <a class="nav-link" href="/selfhosting" title="Self-hosting">
                             
-                            Presentations
+                            Self-hosting
                         </a>
                     </li>
                     
@@ -292,12 +330,12 @@ Website of Jarn de Jong
                 <span class="subtitle">
                     Hi, I&#39;m
                 </span>
-                <h2>
+                <h1>
                     Jarn de Jong.
-                </h2>
-                <h3>
+                </h1>
+                <h2>
                     Researcher &amp; Scientist
-                </h3>
+                </h2>
                 <p class="hero-content">
                     I work in quantum communication, cryptography &amp; information science
                 </p>
@@ -646,43 +684,19 @@ Website of Jarn de Jong
             </div>
             
             <div class="col-sm-12 col-md-12 col-lg-8 content">
-                <p>I am a last-year PhD candidate in the <a href="https://www.tu.berlin/qcc">QCC group</a> of <a href="https://annapappa.weebly.com/">Anna Pappa</a> at <a href="https://www.tu.berlin/en/">TU Berlin</a>. QCC stands for <em>Quantum Communication and Cryptography</em>.</p>
-<h2 id="research">Research</h2>
-<p>In my research I have focused on two different topics, anonymous quantum communication and entanglement in quantum networks. Here is an overview of my publications, sorted by date of appearance and topic:</p>
-<h4 id="anonymous-quantum-communication">Anonymous quantum communication</h4>
-<ol>
-<li>Anonymous Conference Key Agreement (<a href="https://doi.org/10.1103/PRXQuantum.1.020325">link</a>)</li>
-<li>Anonymous and secret communications in quantum networks (<a href="https://doi.org/10.1088/1367-2630/ac1808">link</a>)</li>
-<li>Secure Anonymous Conferencing in Quantum Networks (<a href="https://doi.org/10.1103/PRXQuantum.3.040306">link</a>)</li>
-<li>Experimental anonymous conference key agreement using linear cluster states (<a href="https://doi.org/10.1103/PhysRevResearch.5.033222">link</a>)</li>
-<li>Anonymous conference key agreement in linear quantum networks (<a href="https://doi.org/10.22331/q-2023-09-21-1117">link</a>)</li>
-</ol>
-<h4 id="entanglement-in-quantum-networks">Entanglement in quantum networks</h4>
-<ol>
-<li>Extracting GHZ states from linear cluster states (<a href="https://doi.org/10.1103/PhysRevResearch.6.013330">link</a>)</li>
-<li>Distinguishing graph states by the properties of their marginals (<a href="https://doi.org/10.48550/arXiv.2406.09956">link</a>)</li>
-</ol>
-<p>More details including single-sentence summaries can be found <a href="/publications">here</a></p>
-<h2 id="coding">Coding</h2>
-<p>Both within the scope of my research and in personal projects I build software. Most of these projects are hosted on my private <a href="https://git.jarndejong.nl">Gitea server</a>, but some of these are mirrored to my public <a href="https://github.com/jarndejong/">Github page</a>.</p>
-<p>Some of these projects include:</p>
-<ol>
-<li>The <a href="https://github.com/jarndejong/Graphstabilizer">Graphstabilizer</a> python package. A set of tools that helps you simulate, analyze and draw graphstates. I&rsquo;m currently preparing it for publication in the Python Package index so everyone can install through pip.</li>
-<li>Some <a href="https://github.com/jarndejong/Extracting-GHZ-states-from-Linear-Cluster-States">supplementary material</a> for <a href="https://doi.org/10.1103/PhysRevResearch.6.013330">this publication</a></li>
-</ol>
-<p>I also like self-hosting some projects. Some of these projects are:</p>
-<ol>
-<li>This website (public files available <a href="https://github.com/jarndejong/PersonalWebsitePublicFiles">here</a>)</li>
-<li>My private <a href="https://git.jarndejong.nl">git server</a> through Gitea</li>
-<li>A music server</li>
-<li>A private <a href="https://cloud.jarndejong.nl">cloud environment</a> through NextCloud</li>
-<li>A private password manager</li>
-</ol>
-<h2 id="presenting-and-teaching">Presenting and teaching</h2>
-<p>A non-exhaustive list of my academic talks and presentations can be found <a href="/talks">here</a>.</p>
-<p>I enjoy teaching, explaining and lecturing. Starting from highschool I have always tutored, taught and lectured.</p>
+                <p>I am a physicist, a researcher in quantum information science, tech &amp; teaching enthusiast, and I&rsquo;m passionate about online security, privacy and self-hosting.</p>
+<p>In March 2025, I obtained my PhD in quantum information science (QIS), summa cum laude, at the <a href="https://www.tu.berlin/en/">TU Berlin</a>. I did this in the <a href="https://www.tu.berlin/qcc">QCC group</a> of <a href="https://annapappa.weebly.com/">Anna Pappa</a>, where I was also employed for the last 5 years. QCC stands for <em>Quantum Communication and Cryptography</em>. <a href="/research/phdthesis">Here</a> you can find more info about my thesis.</p>
+<h2 id="research"><a href="/research">Research</a></h2>
+<p>Originally, (during my MSc. thesis) I researched quantum error correction and fault tolerance. During my PhD, I changed gears and focused on two different topics: anonymous quantum communication and entanglement in quantum networks. <a href="/research">Here</a> you can find more info about quantum information science, my research in general, and these topics in particular.</p>
+<h2 id="software-development"><a href="/coding">Software development</a></h2>
+<p>Both within the scope of my research and in personal projects I like to build software. Most of these projects are hosted on my private <a href="https://git.jarndejong.nl">Gitea server</a>, but some of these are mirrored to my public <a href="https://github.com/jarndejong/">Github page</a>. <a href="/coding">Here</a> you can read some more about this, including a small overview of some of these projects.</p>
+<h2 id="self-hosting"><a href="/selfhosting">Self-hosting</a></h2>
+<p>I also like self-hosting some projects. That means I have a server (actually, multiple) running at home, where I host several programs, services and tools. Some of these are intended for use by only me (and are only reachable on my home network or through my own VPN), others are used by friends and family as well. Of course, there&rsquo;s also the website you are currently visiting, intended for ‘everyone&rsquo;! For more info and a quick overview, you can see <a href="/selfhosting">here</a>; I also intend to write some tutorials at some point.</p>
+<h2 id="presenting-and-teaching"><a href="/research/talks">Presenting and teaching</a></h2>
+<p>I enjoy teaching, explaining and lecturing. Starting from high school I have always tutored, taught and lectured.    <br>
+I am a ‘Tweedegraads bevoegd&rsquo; qualified physics teacher. This means I am allowed to teach physics in the first 3 years of any Dutch high school (MAVO, HAVO, VWO). The qualification is also acknowledged in other countries.</p>
+<p>A non-exhaustive list of my academic talks and presentations can be found <a href="/research/talks">here</a>.</p>
 <p>Although I&rsquo;m less active in recent years, I was a top 10 user at the <a href="https://quantumcomputing.stackexchange.com/users/8141/jsdj">quantum computing stack exchange</a>.</p>
-<p>I am a &lsquo;Tweedegraads bevoegd&rsquo; qualified physics teacher. This means I am allowed to teach physics to the first 3 years of any Dutch highschool (MAVO, HAVO, VWO). The qualification is also acknowledged in other countries.</p>
 
 
                 
@@ -706,9 +720,9 @@ Website of Jarn de Jong
                                 aria-selected="true" 
                                 role="tab" 
                                 data-bs-toggle="pill"
-                                id='TU-Berlin-May-2020---present-tab'
-                                data-bs-target='#pills-TU-Berlin-May-2020---present'
-                                aria-controls='TU-Berlin-May-2020---present' 
+                                id='TU-Berlin-May-2020---June-2025-tab'
+                                data-bs-target='#pills-TU-Berlin-May-2020---June-2025'
+                                aria-controls='TU-Berlin-May-2020---June-2025' 
                             >
                                 TU Berlin
                             </div>
@@ -818,22 +832,22 @@ Website of Jarn de Jong
                         <div 
                             class="tab-pane fade show active bg-transparent" 
                             role="tabpanel"
-                            id='pills-TU-Berlin-May-2020---present'
-                            aria-labelledby='pills-TU-Berlin-May-2020---present-tab'
+                            id='pills-TU-Berlin-May-2020---June-2025'
+                            aria-labelledby='pills-TU-Berlin-May-2020---June-2025-tab'
                         >
                             <div>
-                                <span class="h4">Scientific Employee</span>
+                                <span class="h4">Researcher (Wissenschaftliche Mitarbeiter)</span>
                                 <small>-</small>
                                 <a href="https://www.tu.berlin/en/eecs" target="_blank">TU Berlin</a>
                                 <div class="pb-1">
-                                    <small>May 2020 - present</small>
+                                    <small>May 2020 - June 2025</small>
                                     
                                     <span class="p-2">
                                         <span 
                                             style="cursor: pointer;" 
                                             data-bs-toggle="tooltip" 
                                             data-bs-placement="top" 
-                                            data-bs-original-title=My&#32;contract,&#32;being&#32;separate&#32;from&#32;my&#32;PhD,&#32;is&#32;until&#32;2026.
+                                            data-bs-original-title=My&#32;contract&#32;was&#32;separate&#32;from&#32;my&#32;PhD,&#32;as&#32;is&#32;customary&#32;at&#32;TU&#32;Berlin.
                                         >
                                             <i class="fas fa-info-circle fa-xs"></i>
                                         </span>
@@ -844,8 +858,8 @@ Website of Jarn de Jong
                                 
                             </div>
 
-                            <p>Currently I am employed by TU Berlin as a researcher (<em>Wissenschaftliche Mitarbeiter</em>). Although it is within the context of my PhD, in principle it is separate from that.</p>
-<p>Apart from my research, my tasks include:</p>
+                            <p>I was employed by the TU Berlin as a researcher (<em>Wissenschaftliche Mitarbeiter</em>) in the <a href="https://www.tu.berlin/qcc">QCC group</a> of <a href="https://annapappa.weebly.com/">Anna Pappa</a>. Originally this was in the context of my PhD, but after finishing my PhD I stayed for a few more months to finalize projects etc.</p>
+<p>Apart from my research, my tasks included:</p>
 <ul>
 <li>Designing and giving lectures</li>
 <li>Supervising BSc. &amp; MSc. students</li>
@@ -923,7 +937,7 @@ Website of Jarn de Jong
 
                             <div class="pt-2">
                                 I was a visiting researcher in the quantum information team of <em>Laboratoire d&rsquo;Informatique de Paris 6</em> at <a href="https://www.cnrs.fr/en">CNRS</a> and <a href="https://www.sorbonne-universite.fr/en">Sorbonne Université</a> in Paris.
-I presented my previouis work, and I started collaborations with various researchers.
+I presented my previous work, and I started collaborations with various researchers.
                             </div>
                         </div>
                         
@@ -1066,10 +1080,10 @@ I presented my previouis work, and I started collaborations with various researc
                             </div>
 
                             <div class="pt-2">
-                                <p>During both highschool and university, I have tutored, been a teaching assistant and have taught a yearly retake course.</p>
+                                <p>During both high school and university, I have tutored, been a teaching assistant and have taught a yearly retake course.</p>
 <p>My roles included:</p>
 <ul>
-<li>Tutor of high school students while in highschool, including my own classmates.</li>
+<li>Tutor of high school students while in high school, including my own classmates.</li>
 <li>Teaching assistant for various BSc. courses</li>
 <li>Teaching a yearly retake course of multiple math courses. This included lecturing, managing the course, creating handouts, supervising exams and grading.</li>
 <li>Designing <a href="https://www.edx.org/search?q=qutech&amp;tab=course">various MOOCs</a> on quantum computing in a team of 5 students and two professionals.</li>
@@ -1100,6 +1114,59 @@ I presented my previouis work, and I started collaborations with various researc
                         <div class="py-2">
                             <span class="index shadow-lg">
                                 1
+                            </span>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small>2020 - 2025</small>
+                                </div>
+                                <h5 class="card-title">PhD (Dr. rer. nat.)</h5>
+                                
+                                
+                                <a href="https://www.tu.berlin/en/eecs" target="_blank">
+                                    <h6>
+                                    Technische Universität Berlin, German
+                                    </h6>
+                                </a>
+                                
+
+                                
+                                <div class="py-1">
+                                    GPA:
+                                    <i>
+                                        <small>&#34;With distinction&#34; (summa cum laude)</small>
+                                    </i> 
+                                </div>
+                                
+                                <div class="py-1 education-content">
+                                    
+                                </div>
+
+                                
+                                <div class="py-1">
+                                    <a href="/research/thesis" class="btn">
+                                        More info on thesis
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    
+                    <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
+                        <div class="py-2">
+                            <span class="index shadow-lg">
+                                2
                             </span>
                         </div>
                     </div>
@@ -1152,7 +1219,7 @@ I presented my previouis work, and I started collaborations with various researc
                     <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
                         <div class="py-2">
                             <span class="index shadow-lg">
-                                2
+                                3
                             </span>
                         </div>
                     </div>
@@ -1205,7 +1272,7 @@ I presented my previouis work, and I started collaborations with various researc
                     <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
                         <div class="py-2">
                             <span class="index shadow-lg">
-                                3
+                                4
                             </span>
                         </div>
                     </div>
@@ -1264,12 +1331,12 @@ I presented my previouis work, and I started collaborations with various researc
                     <div class="text-center pt-3">
                         <a 
                             href='
-                                    mailto:dejong@tu-berlin.de
+                                    mailto:work@jarndejong.nl
                                   '
                             target="_blank"
                             class="btn"
                         >
-                            Email me with any question you might have!
+                            Email me if you&#39;d like to get in touch!
                         </a>
                     </div>
                     
@@ -1318,7 +1385,7 @@ I presented my previouis work, and I started collaborations with various researc
                     </a>
                 </div>
             
-            &copy; 2024  All rights reserved
+            &copy; 2025  All rights reserved
             <div class="text-secondary">
                 Made with
                 <span class="text-danger">
