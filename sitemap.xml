@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jarndejong.nl/selfhosting/</loc>
+    <lastmod>2025-06-07T20:07:16+02:00</lastmod>
+  </url><url>
     <loc>https://jarndejong.nl/</loc>
     <lastmod>2025-06-07T20:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://jarndejong.nl/research/phdthesis/</loc>
+    <lastmod>2025-06-07T18:38:04+02:00</lastmod>
   </url><url>
     <loc>https://jarndejong.nl/research/acka/</loc>
     <lastmod>2025-06-07T16:36:08+02:00</lastmod>
@@ -11,10 +17,18 @@
     <loc>https://jarndejong.nl/research/entanglement/</loc>
     <lastmod>2025-06-07T16:35:46+02:00</lastmod>
   </url><url>
+    <loc>https://jarndejong.nl/coding/</loc>
+    <lastmod>2025-06-07T16:32:40+02:00</lastmod>
+  </url><url>
     <loc>https://jarndejong.nl/research/talks/</loc>
     <lastmod>2024-09-10T23:48:30+02:00</lastmod>
   </url><url>
+    <loc>https://jarndejong.nl/gallery/</loc>
+    <lastmod>2022-06-25T18:35:46+05:30</lastmod>
+  </url><url>
     <loc>https://jarndejong.nl/categories/</loc>
+  </url><url>
+    <loc>https://jarndejong.nl/research/</loc>
   </url><url>
     <loc>https://jarndejong.nl/tags/</loc>
   </url>

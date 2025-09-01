@@ -6,8 +6,22 @@
     <description>Recent content on Website of Jarn de Jong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Jun 2025 16:36:08 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 07 Jun 2025 20:07:16 +0200</lastBuildDate>
     <atom:link href="https://jarndejong.nl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-hosting</title>
+      <link>https://jarndejong.nl/selfhosting/</link>
+      <pubDate>Sat, 07 Jun 2025 20:07:16 +0200</pubDate>
+      <guid>https://jarndejong.nl/selfhosting/</guid>
+      <description>&lt;p&gt;In recent years, I&amp;rsquo;ve started self-hosting some services. This is mostly a hobby, but it is also nice to know that my data is in my own hands, that I won&amp;rsquo;t be running into (unforeseen) subscription fees, and it&amp;rsquo;s a great learning opportunity.&lt;/p&gt;&#xA;&lt;p&gt;Some of the services I self-host include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;This website (public files available &lt;a href=&#34;https://github.com/jarndejong/PersonalWebsitePublicFiles&#34;&gt;here&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;My private &lt;a href=&#34;https://git.jarndejong.nl&#34;&gt;git server&lt;/a&gt; using the &lt;a href=&#34;https://about.gitea.com/&#34;&gt;Gitea project&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;A music server&lt;/li&gt;&#xA;&lt;li&gt;A private &lt;a href=&#34;https://cloud.jarndejong.nl&#34;&gt;cloud environment&lt;/a&gt; using the &lt;a href=&#34;https://nextcloud.com/&#34;&gt;NextCloud project&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;A private &lt;a href=&#34;https://www.vaultwarden.net/&#34;&gt;password manager&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;An SSO Environment that provides authorization and authentication for all these services.&lt;/li&gt;&#xA;&lt;li&gt;A &lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;home automation server&lt;/a&gt; with many, many integrations.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Most of these services are only for myself, but a few of them (Nextcloud, Vaultwarden, Plex) are also being used by friends and family.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PhD Thesis</title>
+      <link>https://jarndejong.nl/research/phdthesis/</link>
+      <pubDate>Sat, 07 Jun 2025 18:38:04 +0200</pubDate>
+      <guid>https://jarndejong.nl/research/phdthesis/</guid>
+      <description>&lt;p&gt;In March 2025 I defended my thesis successfully, and therefore obtained my PhD &lt;a href=&#34;https://www.tu.berlin/en/cjs/weitere-seiten/advancement-of-junior-scholars/doctorate/doctoral-regulations&#34;&gt;&lt;em&gt;summa cum laude&lt;/em&gt; (‘with distinction&amp;rsquo;)&lt;/a&gt; at the TU Berlin.&lt;/p&gt;&#xA;&lt;p&gt;My thesis encompasses most of the work that I have done during my PhD, and consists of three main parts:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The mathematical introduction.&lt;/li&gt;&#xA;&lt;li&gt;Local equivalence of stabilizer and graph states in quantum networks.&lt;/li&gt;&#xA;&lt;li&gt;QKD and anonymous conference key agreement.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;There are two versions available of my thesis:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jarndejong.nl/docs/PhD.thesis.JarndeJong.pdf&#34;&gt;A version in ‘thesis&amp;rsquo; format&lt;/a&gt; (240x170 mm.), my preferred version.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://depositonce.tu-berlin.de/items/62fb29ff-63f3-4fec-a876-31391436af9e&#34;&gt;A version in A4 paper format&lt;/a&gt;, officially published at the TU Berlin dissertation library.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Anonymous communication in quantum networks</title>
       <link>https://jarndejong.nl/research/acka/</link>
@@ -23,11 +37,32 @@
       <description>&lt;h2 id=&#34;multi-partite-entanglement&#34;&gt;Multi-partite entanglement&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Entanglement&lt;/em&gt; is one of the most fundamental concepts in quantum information science, and is the cornerstone in many applications in quantum computing, communication and cryptography. Roughly speaking, two or more quantum systems are said to be &lt;em&gt;entangled&lt;/em&gt; if their states cannot be separately described any more, but only as a whole.&#xA;Originally only &lt;em&gt;bi-partite&lt;/em&gt; entanglement was considered, but the last two decades has seen an increasing interest in &lt;em&gt;multi-partite&lt;/em&gt; entanglement, that considers more than two quantum systems.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Coding</title>
+      <link>https://jarndejong.nl/coding/</link>
+      <pubDate>Sat, 07 Jun 2025 16:32:40 +0200</pubDate>
+      <guid>https://jarndejong.nl/coding/</guid>
+      <description>&lt;p&gt;Both within the scope of my research and in personal projects I like to build software. Most of these projects are hosted on my private &lt;a href=&#34;https://git.jarndejong.nl&#34;&gt;Gitea server&lt;/a&gt;, but some of these are mirrored to my public &lt;a href=&#34;https://github.com/jarndejong/&#34;&gt;Github page&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Some of these publicly available projects are:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The &lt;a href=&#34;https://github.com/jarndejong/Graphstabilizer&#34;&gt;Graphstabilizer&lt;/a&gt; python package. A set of tools that helps you simulate, analyze and draw graphstates. I&amp;rsquo;m currently preparing it for publication in the Python Package index so everyone can install through pip.&lt;/li&gt;&#xA;&lt;li&gt;Some &lt;a href=&#34;https://github.com/jarndejong/Extracting-GHZ-states-from-Linear-Cluster-States&#34;&gt;supplementary material&lt;/a&gt; for &lt;a href=&#34;https://doi.org/10.1103/PhysRevResearch.6.013330&#34;&gt;this publication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Selected Presentations and Talks</title>
       <link>https://jarndejong.nl/research/talks/</link>
       <pubDate>Tue, 10 Sep 2024 23:48:30 +0200</pubDate>
       <guid>https://jarndejong.nl/research/talks/</guid>
       <description>&lt;p&gt;This is a selected list of talks and posters I presented throughout my academic career. Where applicable or available, the presentation slides can be viewed as well.&lt;/p&gt;&#xA;&lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.4em;&#34;&gt;1. Measurement-based and blind quantum computation&lt;/span&gt; (&lt;a href=&#34;https://jarndejong.nl/docs/presentations/BOS.QT.2021.pdf&#34;&gt;Slides&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I gave a PhD seminar at the &lt;a href=&#34;https://www.tu.berlin/en/nlo/about/berlin-school-of-optical-sciences-and-quantum-technologies-bosqt&#34;&gt;Berlin School of Optical Sciences and Quantum Technologies&lt;/a&gt; (BOS.QT) in 2021.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.4em;&#34;&gt;2. Graph states as quantum networks&lt;/span&gt; (&lt;a href=&#34;https://jarndejong.nl/docs/presentations/KochgroupFUB.2022.pdf&#34;&gt;Slides&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In the &lt;a href=&#34;https://www.physik.fu-berlin.de/einrichtungen/ag/ag-koch/index.html&#34;&gt;Koch group&lt;/a&gt; at Freie Universität Berlin (FUB) during a research visit in 2022.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.4em;&#34;&gt;3. Extracting maximal entanglement from linear cluster states&lt;/span&gt; (&lt;a href=&#34;https://jarndejong.nl/docs/presentations/DPG.Hannover.2023.pdf&#34;&gt;Slides&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Image Gallery</title>
+      <link>https://jarndejong.nl/gallery/</link>
+      <pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate>
+      <guid>https://jarndejong.nl/gallery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://jarndejong.nl/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jarndejong.nl/research/</guid>
+      <description>&lt;h2 id=&#34;quantum-information-science&#34;&gt;Quantum Information Science&lt;/h2&gt;&#xA;&lt;p&gt;I am a researcher in quantum information science (QIS), a field of study that concerns quantum communication, computation, cryptography and fundamental aspects of quantum information.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Quantum information&lt;/em&gt; is what you get when you turn quantum systems into information carriers: instead of the normal &lt;em&gt;bit&lt;/em&gt;, you have &lt;em&gt;qubits&lt;/em&gt;, that have many wonderful properties that don&amp;rsquo;t exist for classical information: &lt;em&gt;superpositions&lt;/em&gt;, &lt;em&gt;entanglement&lt;/em&gt;, &lt;em&gt;no-cloning&lt;/em&gt;, &lt;em&gt;no-deletion&lt;/em&gt;. The goal of quantum information science is to leverage all these (so-called ‘non-classical&amp;rsquo;) phenomena to build better, faster and more efficient computers, networks, encryption and data processing.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
