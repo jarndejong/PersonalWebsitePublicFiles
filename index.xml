@@ -6,8 +6,15 @@
     <description>Recent content on Website of Jarn de Jong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Jun 2025 20:07:16 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 17 Oct 2025 12:38:04 +0200</lastBuildDate>
     <atom:link href="https://jarndejong.nl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview of publications and pre-prints</title>
+      <link>https://jarndejong.nl/research/publications/</link>
+      <pubDate>Fri, 17 Oct 2025 12:38:04 +0200</pubDate>
+      <guid>https://jarndejong.nl/research/publications/</guid>
+      <description>&lt;p&gt;This is an overview of all my scientific publications; they can be divided into two topics:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jarndejong.nl/research/acka/&#34;&gt;Anonymous communication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jarndejong.nl/research/entanglement/&#34;&gt;Multi-partite entanglement and local equivalence&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;A per-topic overview can be found at the above links, here follows a list in chronological order.&lt;/p&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.4em;&#34;&gt;1. Anonymous Conference Key Agreement&lt;/span&gt; (&lt;a href=&#34;https://doi.org/10.48550/arxiv.2010.04534&#34;&gt;arxiv&lt;/a&gt;, &lt;a href=&#34;https://doi.org/10.1103/PRXQuantum.1.020325&#34;&gt;Published&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Hahn, de Jong, Pappa - Anonymous Conference Key Agreement. PRX Quantum 1, 020325 (2020).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The first proof of concept for &lt;em&gt;anonymous conference key agreement&lt;/em&gt; (ACKA) in quantum networks.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.4em;&#34;&gt;2. Anonymous and secret communications in quantum networks&lt;/span&gt; (&lt;a href=&#34;https://doi.org/10.48550/arxiv.2103.08722&#34;&gt;arxiv&lt;/a&gt;, &lt;a href=&#34;https://doi.org/10.1088/1367-2630/ac1808&#34;&gt;Published&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Self-hosting</title>
       <link>https://jarndejong.nl/selfhosting/</link>
@@ -27,7 +34,7 @@
       <link>https://jarndejong.nl/research/acka/</link>
       <pubDate>Sat, 07 Jun 2025 16:36:08 +0200</pubDate>
       <guid>https://jarndejong.nl/research/acka/</guid>
-      <description>&lt;h2 id=&#34;anonymous-communication&#34;&gt;Anonymous communication&lt;/h2&gt;&#xA;&lt;p&gt;Anonymous communication conveys the idea that people may wish to send or receive information over a network, without having to reveal their identities. The clearest example of this is when this information is a &lt;em&gt;message&lt;/em&gt;: &amp;lsquo;I would like to send &amp;ldquo;A&amp;rdquo; a message over the internet, but I don&amp;rsquo;t want anyone else to know that it was me who sends it, or &amp;ldquo;A&amp;rdquo; that received it&amp;rsquo;.&lt;/p&gt;&#xA;&lt;p&gt;Usually, anonymity is considered in conjuction with &lt;em&gt;secret&lt;/em&gt; communication, which hides the contents of the message itself. Secret communication is facilitated by encryption; anonymous and secret communication therefore needs &lt;em&gt;anonymous encryption&lt;/em&gt;. The generalisation of this to more than one sender and one receiver is called &lt;em&gt;anonymous conference key agreement&lt;/em&gt; (ACKA) - much of my research has explored ACKA, ranging from the first proof of concept to more mature protocols in various settings, as well as experimental implementations and showcases.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;anonymous-communication&#34;&gt;Anonymous communication&lt;/h2&gt;&#xA;&lt;p&gt;Anonymous communication conveys the idea that people may wish to send or receive information over a network, without having to reveal their identities. The clearest example of this is when this information is a &lt;em&gt;message&lt;/em&gt;: &amp;lsquo;I would like to send &amp;ldquo;A&amp;rdquo; a message over the internet, but I don&amp;rsquo;t want anyone else to know that it was me who sends it, or &amp;ldquo;A&amp;rdquo; that received it&amp;rsquo;.&lt;/p&gt;&#xA;&lt;p&gt;Usually, anonymity is considered in conjunction with &lt;em&gt;secret&lt;/em&gt; communication, which hides the contents of the message itself. Secret communication is facilitated by encryption; anonymous and secret communication therefore needs &lt;em&gt;anonymous encryption&lt;/em&gt;. The generalisation of this to more than one sender and one receiver is called &lt;em&gt;anonymous conference key agreement&lt;/em&gt; (ACKA) - much of my research has explored ACKA, ranging from the first proof of concept to more mature protocols in various settings, as well as experimental implementations and showcases.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Entanglement in quantum networks</title>

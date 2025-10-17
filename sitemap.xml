@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jarndejong.nl/selfhosting/</loc>
-    <lastmod>2025-06-07T20:07:16+02:00</lastmod>
+    <loc>https://jarndejong.nl/research/publications/</loc>
+    <lastmod>2025-10-17T12:38:04+02:00</lastmod>
   </url><url>
     <loc>https://jarndejong.nl/</loc>
+    <lastmod>2025-10-17T12:38:04+02:00</lastmod>
+  </url><url>
+    <loc>https://jarndejong.nl/selfhosting/</loc>
     <lastmod>2025-06-07T20:07:16+02:00</lastmod>
   </url><url>
     <loc>https://jarndejong.nl/research/phdthesis/</loc>
