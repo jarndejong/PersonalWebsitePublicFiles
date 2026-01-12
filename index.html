@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.150.0"><meta charset="UTF-8">
+	<meta name="generator" content="Hugo 0.154.5"><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -129,13 +129,16 @@ Website of Jarn de Jong
 
     switch (localStorageValue) {
         case "dark":
+            document.documentElement.classList.add('dark');
             document.body.classList.add('dark');
             break;
         case "light":
             document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
             break;
         default:
             if (mediaQuery) {
+                document.documentElement.classList.add('dark');
                 document.body.classList.add('dark');
             }
             break;
@@ -336,7 +339,7 @@ Website of Jarn de Jong
                     Hi, I&#39;m
                 </span>
                 <h1>
-                    Jarn de Jong
+                    Jarn de Jong,
                 </h1>
                 <h2>
                     Physicist &amp; Researcher
@@ -347,7 +350,7 @@ Website of Jarn de Jong
                 <div class="row">
                     <div class="col-auto h-100">
                         
-                        <a href="/docs/CV.Jarn.de.Jong.pdf" class="btn" download
+                        <a href="/docs/Singlepage.CV.Jarn.de.Jong.pdf" class="btn" download
 			  
                           target="_blank"
                           >
@@ -725,154 +728,180 @@ I am a ‘Tweedegraads bevoegd&rsquo; qualified physics teacher. This means I am
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-8 col-lg-8 py-5">
                 <div class="experience-container px-3 pt-2">
-                    <ul class="nav nav-pills mb-3 bg-transparent primary-font" id="pills-tab" role="tablist">
+                    <ul class="nav nav-pills mb-2 bg-transparent primary-font" id="pills-tab" role="tablist">
                         
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link active bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='tu-berlin-may-2020-june-2025-tab'
+                                    data-bs-target='#pills-tu-berlin-may-2020-june-2025'
+                                    aria-controls='tu-berlin-may-2020-june-2025'
+                                >
+                                    TU Berlin
+                                </div>
+                            </li>
                         
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link active bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='TU-Berlin-May-2020---June-2025-tab'
-                                data-bs-target='#pills-TU-Berlin-May-2020---June-2025'
-                                aria-controls='TU-Berlin-May-2020---June-2025' 
-                            >
-                                TU Berlin
-                            </div>
-                        </li>
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='qia-oct-2022-present-tab'
+                                    data-bs-target='#pills-qia-oct-2022-present'
+                                    aria-controls='qia-oct-2022-present'
+                                >
+                                    QIA
+                                </div>
+                            </li>
                         
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='lip6-may-2023-tab'
+                                    data-bs-target='#pills-lip6-may-2023'
+                                    aria-controls='lip6-may-2023'
+                                >
+                                    LIP6
+                                </div>
+                            </li>
                         
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='qutech-okt-2019-march-2020-tab'
+                                    data-bs-target='#pills-qutech-okt-2019-march-2020'
+                                    aria-controls='qutech-okt-2019-march-2020'
+                                >
+                                    QuTech
+                                </div>
+                            </li>
                         
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='QIA-Oct-2022---present-tab'
-                                data-bs-target='#pills-QIA-Oct-2022---present' 
-                                aria-controls='QIA-Oct-2022---present'
-                            >
-                                QIA
-                            </div>
-                        </li>
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='tno-jul-oct-2019-tab'
+                                    data-bs-target='#pills-tno-jul-oct-2019'
+                                    aria-controls='tno-jul-oct-2019'
+                                >
+                                    TNO
+                                </div>
+                            </li>
                         
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='gymnasium-sorghvliet-sept-2014-feb-2015-tab'
+                                    data-bs-target='#pills-gymnasium-sorghvliet-sept-2014-feb-2015'
+                                    aria-controls='gymnasium-sorghvliet-sept-2014-feb-2015'
+                                >
+                                    Gymnasium Sorghvliet
+                                </div>
+                            </li>
                         
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='LIP6-May-2023-tab'
-                                data-bs-target='#pills-LIP6-May-2023' 
-                                aria-controls='LIP6-May-2023'
-                            >
-                                LIP6
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='QuTech-Okt-2019---March-2020-tab'
-                                data-bs-target='#pills-QuTech-Okt-2019---March-2020' 
-                                aria-controls='QuTech-Okt-2019---March-2020'
-                            >
-                                QuTech
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='TNO-Jul---Oct-2019-tab'
-                                data-bs-target='#pills-TNO-Jul---Oct-2019' 
-                                aria-controls='TNO-Jul---Oct-2019'
-                            >
-                                TNO
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='Gymnasium-Sorghvliet-Sept-2014---Feb-2015-tab'
-                                data-bs-target='#pills-Gymnasium-Sorghvliet-Sept-2014---Feb-2015' 
-                                aria-controls='Gymnasium-Sorghvliet-Sept-2014---Feb-2015'
-                            >
-                                Gymnasium Sorghvliet
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='TU-Delft-2011---2018-tab'
-                                data-bs-target='#pills-TU-Delft-2011---2018' 
-                                aria-controls='TU-Delft-2011---2018'
-                            >
-                                TU Delft
-                            </div>
-                        </li>
-                        
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='tu-delft-2011-2018-tab'
+                                    data-bs-target='#pills-tu-delft-2011-2018'
+                                    aria-controls='tu-delft-2011-2018'
+                                >
+                                    TU Delft
+                                </div>
+                            </li>
                         
                     </ul>
-                    <div class="tab-content pb-5 pt-2 bg-transparent primary-font" id="pills-tabContent">
-                        
-                        
-                        <div 
-                            class="tab-pane fade show active bg-transparent" 
-                            role="tabpanel"
-                            id='pills-TU-Berlin-May-2020---June-2025'
-                            aria-labelledby='pills-TU-Berlin-May-2020---June-2025-tab'
-                        >
-                            <div>
-                                <span class="h4">Researcher (Wissenschaftlicher Mitarbeiter)</span>
-                                <small>-</small>
-                                <a href="https://www.tu.berlin/en/eecs" target="_blank">TU Berlin</a>
-                                <div class="pb-1">
-                                    <small>May 2020 - June 2025</small>
-                                    
-                                    <span class="p-2">
-                                        <span 
-                                            style="cursor: pointer;" 
-                                            data-bs-toggle="tooltip" 
-                                            data-bs-placement="top" 
-                                            data-bs-original-title=My&#32;contract&#32;was&#32;separate&#32;from&#32;my&#32;PhD,&#32;as&#32;is&#32;customary&#32;at&#32;TU&#32;Berlin.
-                                        >
-                                            <i class="fas fa-info-circle fa-xs"></i>
-                                        </span>
-                                    </span>
-                                    
-                                </div>
 
+                    <div class="tab-content pb-3 bg-transparent primary-font" id="pills-tabContent">
+                        
+                            
+                            
+                            
+                            
                                 
-                            </div>
-
-                            <p>I was employed by the TU Berlin as a researcher (<em>Wissenschaftliche Mitarbeiter</em>) in the <a href="https://www.tu.berlin/qcc">QCC group</a> of <a href="https://annapappa.weebly.com/">Anna Pappa</a>. Originally this was in the context of my PhD, but after finishing my PhD I stayed for a few more months to finalize projects etc.</p>
+                            
+                            <div
+                                class="tab-pane fade bg-transparent show active"
+                                role="tabpanel"
+                                id='pills-tu-berlin-may-2020-june-2025'
+                                aria-labelledby='tu-berlin-may-2020-june-2025-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Researcher (Wissenschaftlicher Mitarbeiter)</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=My&#32;contract&#32;was&#32;separate&#32;from&#32;my&#32;PhD,&#32;as&#32;is&#32;customary&#32;at&#32;TU&#32;Berlin.
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="https://www.tu.berlin/en/eecs" target="_blank">TU Berlin</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>May 2020 - June 2025</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <p>I was employed by the TU Berlin as a researcher (<em>Wissenschaftliche Mitarbeiter</em>) in the <a href="https://www.tu.berlin/qcc">QCC group</a> of <a href="https://annapappa.weebly.com/">Anna Pappa</a>. Originally this was in the context of my PhD, but after finishing my PhD I stayed for a few more months to finalize projects etc.</p>
 <p>Apart from my research, my tasks included:</p>
 <ul>
 <li>Designing and giving lectures</li>
@@ -880,132 +909,210 @@ I am a ‘Tweedegraads bevoegd&rsquo; qualified physics teacher. This means I am
 <li>Scientific talks</li>
 </ul>
 
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-QIA-Oct-2022---present'
-                            aria-labelledby='pills-QIA-Oct-2022---present-tab'
-                        >
-                            <div>
-                                <span class="h4">Use case team member</span>
-                                <small>-</small>
-                                <a href="https://quantuminternetalliance.org/" target="_blank">QIA</a>
-                                
-                                <div class="pb-1">
-                                    <small>Oct 2022 - present</small>
-                                    
-                                    <span class="p-2">
-                                        <span 
-                                            style="cursor: pointer;" 
-                                            data-bs-toggle="tooltip" 
-                                            data-bs-placement="top" 
-                                            data-bs-original-title=The&#32;project&#32;started&#32;officially&#32;in&#32;Oct.&#32;2022.
-                                        > 
-                                            <i class="fas fa-info-circle fa-xs"></i>
-                                        </span>
-                                    </span>
-                                    
-                                </div>
-                                
+                                        </div>
+                                    </div>
                                 
                             </div>
-
-                            <div class="pt-2">
-                                <p>The <em>Quantum Internet Alliance</em> (QIA), an EU-flagship project that aims to create the world&rsquo;s first quantum internet, built in Europe.</p>
+                        
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-qia-oct-2022-present'
+                                aria-labelledby='qia-oct-2022-present-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Use case team member</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=The&#32;project&#32;started&#32;officially&#32;in&#32;Oct.&#32;2022.
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="https://quantuminternetalliance.org/" target="_blank">QIA</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>Oct 2022 - present</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <p>The <em>Quantum Internet Alliance</em> (QIA), an EU-flagship project that aims to create the world&rsquo;s first quantum internet, built in Europe.</p>
 <p>I am currently part of QIA&rsquo;s <em>Use Case</em> team, where we research and develop use cases for the (future) quantum internet.</p>
 <p>My tasks include:</p>
 <ul>
 <li>Developing and simulating use cases</li>
 <li>Writing reports for the European Commission</li>
 <li>Categorisation of quantum networking protocols</li>
-<li>(Brief) interim team lead</li>
+<li>Managing projects</li>
 </ul>
 
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-LIP6-May-2023'
-                            aria-labelledby='pills-LIP6-May-2023-tab'
-                        >
-                            <div>
-                                <span class="h4">Visiting Researcher</span>
-                                <small>-</small>
-                                <a href="https://qi.lip6.fr/" target="_blank">LIP6</a>
-                                
-                                <div class="pb-1">
-                                    <small>May 2023</small>
-                                    
-                                </div>
-                                
+                                        </div>
+                                    </div>
                                 
                             </div>
-
-                            <div class="pt-2">
-                                I was a visiting researcher in the quantum information team of <em>Laboratoire d&rsquo;Informatique de Paris 6</em> at <a href="https://www.cnrs.fr/en">CNRS</a> and <a href="https://www.sorbonne-universite.fr/en">Sorbonne Université</a> in Paris.
+                        
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-lip6-may-2023'
+                                aria-labelledby='lip6-may-2023-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Visiting Researcher</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=-
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="https://qi.lip6.fr/" target="_blank">LIP6</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>May 2023</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            I was a visiting researcher in the quantum information team of <em>Laboratoire d&rsquo;Informatique de Paris 6</em> at <a href="https://www.cnrs.fr/en">CNRS</a> and <a href="https://www.sorbonne-universite.fr/en">Sorbonne Université</a> in Paris.
 I presented my previous work, and I started collaborations with various researchers.
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-QuTech-Okt-2019---March-2020'
-                            aria-labelledby='pills-QuTech-Okt-2019---March-2020-tab'
-                        >
-                            <div>
-                                <span class="h4">Researcher</span>
-                                <small>-</small>
-                                <a href="https://qutech.nl" target="_blank">QuTech</a>
-                                
-                                <div class="pb-1">
-                                    <small>Okt 2019 - March 2020</small>
-                                    
-                                </div>
-                                
+                                        </div>
+                                    </div>
                                 
                             </div>
-
-                            <div class="pt-2">
-                                <p>I was a soft- and hardware developer at QuTech, where in a team of 3 we developed a MVP for an <em>MDI-QKD</em> system.</p>
+                        
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-qutech-okt-2019-march-2020'
+                                aria-labelledby='qutech-okt-2019-march-2020-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Researcher</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=I&#32;was&#32;a&#32;soft-&#32;and&#32;hardware&#32;developer&#32;at&#32;QuTech,&#32;where&#32;in&#32;a&#32;team&#32;of&#32;3&#32;we&#32;developed&#32;a&#32;MVP&#32;for&#32;an&#32;_MDI-QKD_&#32;system.&#32;The&#32;work&#32;span-off&#32;into&#32;[q-bird.com](QBird)&#32;in&#32;2021.
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="https://qutech.nl" target="_blank">QuTech</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>Okt 2019 - March 2020</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <p>I was a soft- and hardware developer at QuTech, where in a team of 3 we developed a MVP for an <em>MDI-QKD</em> system.</p>
 <p>The work span-off into <a href="q-bird.com">QBird</a> in 2021.</p>
 
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-TNO-Jul---Oct-2019'
-                            aria-labelledby='pills-TNO-Jul---Oct-2019-tab'
-                        >
-                            <div>
-                                <span class="h4">Intern</span>
-                                <small>-</small>
-                                <a href="https://www.tno.nl/en/focus-areas/industry/expertise-groups/quantum-technology/" target="_blank">TNO</a>
-                                
-                                <div class="pb-1">
-                                    <small>Jul - Oct 2019</small>
-                                    
-                                </div>
-                                
+                                        </div>
+                                    </div>
                                 
                             </div>
-
-                            <div class="pt-2">
-                                <p>I was an intern at the Quantum Technology department of the Netherlands Organisation of Applied Sciences research (TNO).</p>
+                        
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-tno-jul-oct-2019'
+                                aria-labelledby='tno-jul-oct-2019-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Intern</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=I&#32;was&#32;a&#32;soft-&#32;and&#32;hardware&#32;developer&#32;at&#32;QuTech,&#32;where&#32;in&#32;a&#32;team&#32;of&#32;3&#32;we&#32;developed&#32;a&#32;MVP&#32;for&#32;an&#32;_MDI-QKD_&#32;system.&#32;The&#32;work&#32;span-off&#32;into&#32;[q-bird.com](QBird)&#32;in&#32;2021.
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="https://www.tno.nl/en/focus-areas/industry/expertise-groups/quantum-technology/" target="_blank">TNO</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>Jul - Oct 2019</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <p>I was an intern at the Quantum Technology department of the Netherlands Organisation of Applied Sciences research (TNO).</p>
 <p>My tasks included:</p>
 <ul>
 <li>Designing and developing experiments for upcoming quantum device</li>
@@ -1013,43 +1120,54 @@ I presented my previous work, and I started collaborations with various research
 <li>Software development and simulation</li>
 </ul>
 
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-Gymnasium-Sorghvliet-Sept-2014---Feb-2015'
-                            aria-labelledby='pills-Gymnasium-Sorghvliet-Sept-2014---Feb-2015-tab'
-                        >
-                            <div>
-                                <span class="h4">Teaching intern</span>
-                                <small>-</small>
-                                <a href="https://www.gymnasium-sorghvliet.nl" target="_blank">Gymnasium Sorghvliet</a>
-                                
-                                <div class="pb-1">
-                                    <small>Sept 2014 - Feb 2015</small>
-                                    
-                                    <span class="p-2">
-                                        <span 
-                                            style="cursor: pointer;" 
-                                            data-bs-toggle="tooltip" 
-                                            data-bs-placement="top" 
-                                            data-bs-original-title=This&#32;comprised&#32;the&#32;entire&#32;first&#32;semester&#32;of&#32;my&#32;3rd&#32;BSc.&#32;year.
-                                        > 
-                                            <i class="fas fa-info-circle fa-xs"></i>
-                                        </span>
-                                    </span>
-                                    
-                                </div>
-                                
+                                        </div>
+                                    </div>
                                 
                             </div>
-
-                            <div class="pt-2">
-                                <p>In the scope of my bachelors minor I was a physics teacher intern at the <em>Christelijk Gymnasium Sorghvliet</em> in The Hague, NL.</p>
+                        
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-gymnasium-sorghvliet-sept-2014-feb-2015'
+                                aria-labelledby='gymnasium-sorghvliet-sept-2014-feb-2015-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Teacher intern</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=This&#32;comprised&#32;the&#32;entire&#32;first&#32;semester&#32;of&#32;my&#32;3rd&#32;BSc.&#32;year.
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="https://www.gymnasium-sorghvliet.nl" target="_blank">Gymnasium Sorghvliet</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>Sept 2014 - Feb 2015</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <p>In the scope of my bachelors minor I was a physics teacher intern at the <em>Christelijk Gymnasium Sorghvliet</em> in The Hague, NL.</p>
 <p>My tasks included:</p>
 <ul>
 <li>Designing and giving classes</li>
@@ -1058,43 +1176,54 @@ I presented my previous work, and I started collaborations with various research
 </ul>
 <p>This internship culminated in a &lsquo;Tweedegraads bevoegdheid&rsquo; high school teaching qualification in physics.</p>
 
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-TU-Delft-2011---2018'
-                            aria-labelledby='pills-TU-Delft-2011---2018-tab'
-                        >
-                            <div>
-                                <span class="h4">Teaching &amp; Tutoring</span>
-                                <small>-</small>
-                                <a href="https://www.tudelft.nl/tnw" target="_blank">TU Delft</a>
-                                
-                                <div class="pb-1">
-                                    <small>2011 - 2018</small>
-                                    
-                                    <span class="p-2">
-                                        <span 
-                                            style="cursor: pointer;" 
-                                            data-bs-toggle="tooltip" 
-                                            data-bs-placement="top" 
-                                            data-bs-original-title=This&#32;range&#32;includes&#32;both&#32;high&#32;school&#32;and&#32;university&#32;years.
-                                        > 
-                                            <i class="fas fa-info-circle fa-xs"></i>
-                                        </span>
-                                    </span>
-                                    
-                                </div>
-                                
+                                        </div>
+                                    </div>
                                 
                             </div>
-
-                            <div class="pt-2">
-                                <p>During both high school and university, I have tutored, been a teaching assistant and have taught a yearly retake course.</p>
+                        
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-tu-delft-2011-2018'
+                                aria-labelledby='tu-delft-2011-2018-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Teaching &amp; Tutoring</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=This&#32;range&#32;includes&#32;both&#32;high&#32;school&#32;and&#32;university&#32;years.
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="https://www.tudelft.nl/tnw" target="_blank">TU Delft</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>2011 - 2018</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <p>During both high school and university, I have tutored, been a teaching assistant and have taught a yearly retake course.</p>
 <p>My roles included:</p>
 <ul>
 <li>Tutor of high school students while in high school, including my own classmates.</li>
@@ -1103,8 +1232,10 @@ I presented my previous work, and I started collaborations with various research
 <li>Designing <a href="https://www.edx.org/search?q=qutech&amp;tab=course">various MOOCs</a> on quantum computing in a team of 5 students and two professionals.</li>
 </ul>
 
+                                        </div>
+                                    </div>
+                                
                             </div>
-                        </div>
                         
                         
                     </div>
@@ -1399,7 +1530,7 @@ I presented my previous work, and I started collaborations with various research
                     </a>
                 </div>
             
-            &copy; 2025  All rights reserved
+            &copy; 2026  All rights reserved
             <div class="text-secondary">
                 Made with
                 <span class="text-danger">
@@ -1417,10 +1548,13 @@ I presented my previous work, and I started collaborations with various research
 </footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
+        document.documentElement.classList.add('dark');
         document.body.classList.add('dark');
     } else if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
+        document.documentElement.classList.remove('dark');
     } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
         document.body.classList.add('dark');
     }
 
@@ -1429,9 +1563,11 @@ I presented my previous work, and I started collaborations with various research
     document.getElementById("theme-toggle").addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
         } else {
             document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
         }
     })

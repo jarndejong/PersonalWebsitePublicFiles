@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research on Website of Jarn de Jong</title>
+    <title>Researches on Website of Jarn de Jong</title>
     <link>https://jarndejong.nl/research/</link>
-    <description>Recent content in Research on Website of Jarn de Jong</description>
+    <description>Recent content in Researches on Website of Jarn de Jong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 17 Oct 2025 12:38:04 +0200</lastBuildDate>
     <atom:link href="https://jarndejong.nl/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview of publications and pre-prints</title>
+      <link>https://jarndejong.nl/research/publications/</link>
+      <pubDate>Fri, 17 Oct 2025 12:38:04 +0200</pubDate>
+      <guid>https://jarndejong.nl/research/publications/</guid>
+      <description>&lt;p&gt;This is an overview of all my scientific publications; they can be divided into two topics:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jarndejong.nl/research/acka/&#34;&gt;Anonymous communication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jarndejong.nl/research/entanglement/&#34;&gt;Multi-partite entanglement and local equivalence&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;A per-topic overview can be found at the above links, here follows a list in chronological order.&lt;/p&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.25em;&#34;&gt;1. Anonymous Conference Key Agreement&lt;/span&gt; (&lt;a href=&#34;https://doi.org/10.48550/arxiv.2010.04534&#34;&gt;arxiv&lt;/a&gt;, &lt;a href=&#34;https://doi.org/10.1103/PRXQuantum.1.020325&#34;&gt;Published&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Hahn, de Jong, Pappa - Anonymous Conference Key Agreement. PRX Quantum 1, 020325 (2020).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The first proof of concept for &lt;em&gt;anonymous conference key agreement&lt;/em&gt; (ACKA) in quantum networks.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.25em;&#34;&gt;2. Anonymous and secret communications in quantum networks&lt;/span&gt; (&lt;a href=&#34;https://doi.org/10.48550/arxiv.2103.08722&#34;&gt;arxiv&lt;/a&gt;, &lt;a href=&#34;https://doi.org/10.1088/1367-2630/ac1808&#34;&gt;Published&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PhD Thesis</title>
+      <link>https://jarndejong.nl/research/phdthesis/</link>
+      <pubDate>Sat, 07 Jun 2025 18:38:04 +0200</pubDate>
+      <guid>https://jarndejong.nl/research/phdthesis/</guid>
+      <description>&lt;p&gt;In March 2025 I defended my thesis successfully, and therefore obtained my PhD &lt;a href=&#34;https://www.tu.berlin/en/cjs/weitere-seiten/advancement-of-junior-scholars/doctorate/doctoral-regulations&#34;&gt;&lt;em&gt;summa cum laude&lt;/em&gt; (‘with distinction&amp;rsquo;)&lt;/a&gt; at the TU Berlin.&lt;/p&gt;&#xA;&lt;p&gt;My thesis encompasses most of the work that I have done during my PhD, and consists of three main parts:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The mathematical introduction.&lt;/li&gt;&#xA;&lt;li&gt;Local equivalence of stabilizer and graph states in quantum networks.&lt;/li&gt;&#xA;&lt;li&gt;QKD and anonymous conference key agreement.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;There are two versions available of my thesis:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jarndejong.nl/docs/PhD.thesis.JarndeJong.pdf&#34;&gt;A version in ‘thesis&amp;rsquo; format&lt;/a&gt; (240x170 mm.) with cover, my preferred version.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://depositonce.tu-berlin.de/items/62fb29ff-63f3-4fec-a876-31391436af9e&#34;&gt;A version in A4 paper format&lt;/a&gt;, officially published at the TU Berlin dissertation library.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Anonymous communication in quantum networks</title>
+      <link>https://jarndejong.nl/research/acka/</link>
+      <pubDate>Sat, 07 Jun 2025 16:36:08 +0200</pubDate>
+      <guid>https://jarndejong.nl/research/acka/</guid>
+      <description>&lt;h2 id=&#34;anonymous-communication&#34;&gt;Anonymous communication&lt;/h2&gt;&#xA;&lt;p&gt;Anonymous communication conveys the idea that people may wish to send or receive information over a network, without having to reveal their identities. The clearest example of this is when this information is a &lt;em&gt;message&lt;/em&gt;: &amp;lsquo;I would like to send &amp;ldquo;A&amp;rdquo; a message over the internet, but I don&amp;rsquo;t want anyone else to know that it was me who sends it, or &amp;ldquo;A&amp;rdquo; that received it&amp;rsquo;.&lt;/p&gt;&#xA;&lt;p&gt;Usually, anonymity is considered in conjunction with &lt;em&gt;secret&lt;/em&gt; communication, which hides the contents of the message itself. Secret communication is facilitated by encryption; anonymous and secret communication therefore needs &lt;em&gt;anonymous encryption&lt;/em&gt;. The generalisation of this to more than one sender and one receiver is called &lt;em&gt;anonymous conference key agreement&lt;/em&gt; (ACKA) - much of my research has explored ACKA, ranging from the first proof of concept to more mature protocols in various settings, as well as experimental implementations and showcases.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entanglement in quantum networks</title>
+      <link>https://jarndejong.nl/research/entanglement/</link>
+      <pubDate>Sat, 07 Jun 2025 16:35:46 +0200</pubDate>
+      <guid>https://jarndejong.nl/research/entanglement/</guid>
+      <description>&lt;h2 id=&#34;multi-partite-entanglement&#34;&gt;Multi-partite entanglement&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Entanglement&lt;/em&gt; is one of the most fundamental concepts in quantum information science, and is the cornerstone in many applications in quantum computing, communication and cryptography. Roughly speaking, two or more quantum systems are said to be &lt;em&gt;entangled&lt;/em&gt; if their states cannot be separately described any more, but only as a whole.&#xA;Originally only &lt;em&gt;bi-partite&lt;/em&gt; entanglement was considered, but the last two decades has seen an increasing interest in &lt;em&gt;multi-partite&lt;/em&gt; entanglement, that considers more than two quantum systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Selected Presentations and Talks</title>
+      <link>https://jarndejong.nl/research/talks/</link>
+      <pubDate>Tue, 10 Sep 2024 23:48:30 +0200</pubDate>
+      <guid>https://jarndejong.nl/research/talks/</guid>
+      <description>&lt;p&gt;This is a selected list of talks and posters I presented throughout my academic career. Where applicable or available, the presentation slides can be viewed as well.&lt;/p&gt;&#xA;&lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.4em;&#34;&gt;1. Measurement-based and blind quantum computation&lt;/span&gt; (&lt;a href=&#34;https://jarndejong.nl/docs/presentations/BOS.QT.2021.pdf&#34;&gt;Slides&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I gave a PhD seminar at the &lt;a href=&#34;https://www.tu.berlin/en/nlo/about/berlin-school-of-optical-sciences-and-quantum-technologies-bosqt&#34;&gt;Berlin School of Optical Sciences and Quantum Technologies&lt;/a&gt; (BOS.QT) in 2021.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.4em;&#34;&gt;2. Graph states as quantum networks&lt;/span&gt; (&lt;a href=&#34;https://jarndejong.nl/docs/presentations/KochgroupFUB.2022.pdf&#34;&gt;Slides&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In the &lt;a href=&#34;https://www.physik.fu-berlin.de/einrichtungen/ag/ag-koch/index.html&#34;&gt;Koch group&lt;/a&gt; at Freie Universität Berlin (FUB) during a research visit in 2022.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.4em;&#34;&gt;3. Extracting maximal entanglement from linear cluster states&lt;/span&gt; (&lt;a href=&#34;https://jarndejong.nl/docs/presentations/DPG.Hannover.2023.pdf&#34;&gt;Slides&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
