@@ -32,8 +32,8 @@
   <meta property="og:site_name" content="Website of Jarn de Jong">
   <meta property="og:title" content="Self-hosting">
   <meta property="og:description" content="In recent years, I’ve started self-hosting some services. This is mostly a hobby, but it is also nice to know that my data is in my own hands, that I won’t be running into (unforeseen) subscription fees, and it’s a great learning opportunity.
-Some of the services I self-host include:
-This website (public files available here) My private git server using the Gitea project A music server A private cloud environment using the NextCloud project A private password manager An SSO Environment that provides authorization and authentication for all these services. A home automation server with many, many integrations. Most of these services are only for myself, but a few of them (Nextcloud, Vaultwarden, Plex) are also being used by friends and family.">
+Selection of services Some of the services I self-host include:
+This website (public files available here). My private git server using the Gitea project. A music server. A private cloud environment using the NextCloud project. A private password manager. An SSO Environment that provides authorization and authentication for all these services. A home automation server with many, many integrations. A private photo server using the Immich project. Most of these services are only for myself, but a few of them (Nextcloud, Vaultwarden, media server) are also being used by friends and family.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:published_time" content="2025-06-07T20:07:16+02:00">
@@ -43,8 +43,8 @@ This website (public files available here) My private git server using the Gitea
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Self-hosting">
   <meta name="twitter:description" content="In recent years, I’ve started self-hosting some services. This is mostly a hobby, but it is also nice to know that my data is in my own hands, that I won’t be running into (unforeseen) subscription fees, and it’s a great learning opportunity.
-Some of the services I self-host include:
-This website (public files available here) My private git server using the Gitea project A music server A private cloud environment using the NextCloud project A private password manager An SSO Environment that provides authorization and authentication for all these services. A home automation server with many, many integrations. Most of these services are only for myself, but a few of them (Nextcloud, Vaultwarden, Plex) are also being used by friends and family.">
+Selection of services Some of the services I self-host include:
+This website (public files available here). My private git server using the Gitea project. A music server. A private cloud environment using the NextCloud project. A private password manager. An SSO Environment that provides authorization and authentication for all these services. A home automation server with many, many integrations. A private photo server using the Immich project. Most of these services are only for myself, but a few of them (Nextcloud, Vaultwarden, media server) are also being used by friends and family.">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -352,17 +352,22 @@ Self-hosting | Website of Jarn de Jong
           
           <article class="page-content  p-2">
           <p>In recent years, I&rsquo;ve started self-hosting some services. This is mostly a hobby, but it is also nice to know that my data is in my own hands, that I won&rsquo;t be running into (unforeseen) subscription fees, and it&rsquo;s a great learning opportunity.</p>
+<h3 id="selection-of-services">Selection of services</h3>
 <p>Some of the services I self-host include:</p>
 <ol>
-<li>This website (public files available <a href="https://github.com/jarndejong/PersonalWebsitePublicFiles">here</a>)</li>
-<li>My private <a href="https://git.jarndejong.nl">git server</a> using the <a href="https://about.gitea.com/">Gitea project</a></li>
-<li>A music server</li>
-<li>A private <a href="https://cloud.jarndejong.nl">cloud environment</a> using the <a href="https://nextcloud.com/">NextCloud project</a></li>
-<li>A private <a href="https://www.vaultwarden.net/">password manager</a></li>
+<li>This website (public files available <a href="https://github.com/jarndejong/PersonalWebsitePublicFiles">here</a>).</li>
+<li>My private <a href="https://git.jarndejong.nl">git server</a> using the <a href="https://about.gitea.com/">Gitea project</a>.</li>
+<li>A music server.</li>
+<li>A private <a href="https://cloud.jarndejong.nl">cloud environment</a> using the <a href="https://nextcloud.com/">NextCloud project</a>.</li>
+<li>A private <a href="https://www.vaultwarden.net/">password manager</a>.</li>
 <li>An SSO Environment that provides authorization and authentication for all these services.</li>
 <li>A <a href="https://www.home-assistant.io/">home automation server</a> with many, many integrations.</li>
+<li>A private <a href="https://photos.jarndejong.nl">photo server</a> using the <a href="https://https://immich.app/">Immich project</a>.</li>
 </ol>
-<p>Most of these services are only for myself, but a few of them (Nextcloud, Vaultwarden, Plex) are also being used by friends and family.</p>
+<p>Most of these services are only for myself, but a few of them (Nextcloud, Vaultwarden, media server) are also being used by friends and family.</p>
+<h3 id="network-overview">Network overview</h3>
+<p>I&rsquo;ve made a diagram of the major components of my home network as an overview.
+<img src="/images/selfhosting/network-overview.png" alt="Home network overview">.</p>
 
           </article>
         </div>
@@ -375,7 +380,16 @@ Self-hosting | Website of Jarn de Jong
                 Table Of Contents
               </h5>
               <div class="toc-content">
-                <nav id="TableOfContents"></nav>
+                <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#selection-of-services">Selection of services</a></li>
+        <li><a href="#network-overview">Network overview</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
               </div>
           </aside>
           
