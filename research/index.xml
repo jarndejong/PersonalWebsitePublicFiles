@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Website of Jarn de Jong</title>
-    <link>https://jarndejong.nl/</link>
-    <description>Recent content on Website of Jarn de Jong</description>
+    <title>Researches on Website of Jarn de Jong</title>
+    <link>https://jarndejong.nl/research/</link>
+    <description>Recent content in Researches on Website of Jarn de Jong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Oct 2025 12:38:04 +0200</lastBuildDate>
-    <atom:link href="https://jarndejong.nl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jarndejong.nl/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overview of publications and pre-prints</title>
       <link>https://jarndejong.nl/research/publications/</link>
       <pubDate>Fri, 17 Oct 2025 12:38:04 +0200</pubDate>
       <guid>https://jarndejong.nl/research/publications/</guid>
       <description>&lt;p&gt;This is an overview of all my scientific publications; they can be divided into two topics:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jarndejong.nl/research/acka/&#34;&gt;Anonymous communication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jarndejong.nl/research/entanglement/&#34;&gt;Multi-partite entanglement and local equivalence&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;A per-topic overview can be found at the above links, here follows a list in chronological order.&lt;/p&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.25em;&#34;&gt;1. Anonymous Conference Key Agreement&lt;/span&gt; (&lt;a href=&#34;https://doi.org/10.48550/arxiv.2010.04534&#34;&gt;arxiv&lt;/a&gt;, &lt;a href=&#34;https://doi.org/10.1103/PRXQuantum.1.020325&#34;&gt;Published&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Hahn, de Jong, Pappa - Anonymous Conference Key Agreement. PRX Quantum 1, 020325 (2020).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The first proof of concept for &lt;em&gt;anonymous conference key agreement&lt;/em&gt; (ACKA) in quantum networks.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.25em;&#34;&gt;2. Anonymous and secret communications in quantum networks&lt;/span&gt; (&lt;a href=&#34;https://doi.org/10.48550/arxiv.2103.08722&#34;&gt;arxiv&lt;/a&gt;, &lt;a href=&#34;https://doi.org/10.1088/1367-2630/ac1808&#34;&gt;Published&lt;/a&gt;)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Self-hosting</title>
-      <link>https://jarndejong.nl/selfhosting/</link>
-      <pubDate>Sat, 07 Jun 2025 20:07:16 +0200</pubDate>
-      <guid>https://jarndejong.nl/selfhosting/</guid>
-      <description>&lt;p&gt;In recent years, I&amp;rsquo;ve started self-hosting some services. This is mostly a hobby, but it is also nice to know that my data is in my own hands, that I won&amp;rsquo;t be running into (unforeseen) subscription fees, and it&amp;rsquo;s a great learning opportunity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;selection-of-services&#34;&gt;Selection of services&lt;/h3&gt;&#xA;&lt;p&gt;Some of the services I self-host include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;This website (public files available &lt;a href=&#34;https://github.com/jarndejong/PersonalWebsitePublicFiles&#34;&gt;here&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;My private &lt;a href=&#34;https://git.jarndejong.nl&#34;&gt;git server&lt;/a&gt; using the &lt;a href=&#34;https://about.gitea.com/&#34;&gt;Gitea project&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;A music server.&lt;/li&gt;&#xA;&lt;li&gt;A private &lt;a href=&#34;https://cloud.jarndejong.nl&#34;&gt;cloud environment&lt;/a&gt; using the &lt;a href=&#34;https://nextcloud.com/&#34;&gt;NextCloud project&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;A private &lt;a href=&#34;https://www.vaultwarden.net/&#34;&gt;password manager&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;An SSO Environment that provides authorization and authentication for all these services.&lt;/li&gt;&#xA;&lt;li&gt;A &lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;home automation server&lt;/a&gt; with many, many integrations.&lt;/li&gt;&#xA;&lt;li&gt;A private &lt;a href=&#34;https://photos.jarndejong.nl&#34;&gt;photo server&lt;/a&gt; using the &lt;a href=&#34;https://https://immich.app/&#34;&gt;Immich project&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Most of these services are only for myself, but a few of them (Nextcloud, Vaultwarden, media server) are also being used by friends and family.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PhD Thesis</title>
@@ -44,25 +37,11 @@
       <description>&lt;h2 id=&#34;multi-partite-entanglement&#34;&gt;Multi-partite entanglement&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Entanglement&lt;/em&gt; is one of the most fundamental concepts in quantum information science, and is the cornerstone in many applications in quantum computing, communication and cryptography. Roughly speaking, two or more quantum systems are said to be &lt;em&gt;entangled&lt;/em&gt; if their states cannot be separately described any more, but only as a whole.&#xA;Originally only &lt;em&gt;bi-partite&lt;/em&gt; entanglement was considered, but the last two decades has seen an increasing interest in &lt;em&gt;multi-partite&lt;/em&gt; entanglement, that considers more than two quantum systems.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Coding</title>
-      <link>https://jarndejong.nl/coding/</link>
-      <pubDate>Sat, 07 Jun 2025 16:32:40 +0200</pubDate>
-      <guid>https://jarndejong.nl/coding/</guid>
-      <description>&lt;p&gt;Both within the scope of my research and in personal projects I like to build software. Most of these projects are hosted on my private &lt;a href=&#34;https://git.jarndejong.nl&#34;&gt;Gitea server&lt;/a&gt;, but some of these are mirrored to my public &lt;a href=&#34;https://github.com/jarndejong/&#34;&gt;Github page&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Some of these publicly available projects are:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The &lt;a href=&#34;https://github.com/jarndejong/Graphstabilizer&#34;&gt;Graphstabilizer&lt;/a&gt; python package. A set of tools that helps you simulate, analyze and draw graphstates. I&amp;rsquo;m currently preparing it for publication in the Python Package index so everyone can install through pip.&lt;/li&gt;&#xA;&lt;li&gt;Some &lt;a href=&#34;https://github.com/jarndejong/Extracting-GHZ-states-from-Linear-Cluster-States&#34;&gt;supplementary material&lt;/a&gt; for &lt;a href=&#34;https://doi.org/10.1103/PhysRevResearch.6.013330&#34;&gt;this publication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-    <item>
       <title>Selected Presentations and Talks</title>
       <link>https://jarndejong.nl/research/talks/</link>
       <pubDate>Tue, 10 Sep 2024 23:48:30 +0200</pubDate>
       <guid>https://jarndejong.nl/research/talks/</guid>
       <description>&lt;p&gt;This is a selected list of talks and posters I presented throughout my academic career. Where applicable or available, the presentation slides can be viewed as well.&lt;/p&gt;&#xA;&lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.4em;&#34;&gt;1. Measurement-based and blind quantum computation&lt;/span&gt; (&lt;a href=&#34;https://jarndejong.nl/docs/presentations/BOS.QT.2021.pdf&#34;&gt;Slides&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I gave a PhD seminar at the &lt;a href=&#34;https://www.tu.berlin/en/nlo/about/berlin-school-of-optical-sciences-and-quantum-technologies-bosqt&#34;&gt;Berlin School of Optical Sciences and Quantum Technologies&lt;/a&gt; (BOS.QT) in 2021.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.4em;&#34;&gt;2. Graph states as quantum networks&lt;/span&gt; (&lt;a href=&#34;https://jarndejong.nl/docs/presentations/KochgroupFUB.2022.pdf&#34;&gt;Slides&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In the &lt;a href=&#34;https://www.physik.fu-berlin.de/einrichtungen/ag/ag-koch/index.html&#34;&gt;Koch group&lt;/a&gt; at Freie Universität Berlin (FUB) during a research visit in 2022.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size:1.4em;&#34;&gt;3. Extracting maximal entanglement from linear cluster states&lt;/span&gt; (&lt;a href=&#34;https://jarndejong.nl/docs/presentations/DPG.Hannover.2023.pdf&#34;&gt;Slides&lt;/a&gt;)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Image Gallery</title>
-      <link>https://jarndejong.nl/gallery/</link>
-      <pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate>
-      <guid>https://jarndejong.nl/gallery/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
